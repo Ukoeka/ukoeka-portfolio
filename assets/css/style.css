@@ -6871,7 +6871,7 @@ b, strong {
 /* Cursor
 -----------------------------------------------------------------*/
 .hover-this .hover-anim {
-  pointer-events: none;
+  pointer-events: auto;
   transition: transform 0.2s linear;
 }
 
