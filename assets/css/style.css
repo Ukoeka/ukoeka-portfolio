@@ -10927,7 +10927,343 @@ body.light .theme-icon .moon {
   display: none;
   line-height: 0;
 }
-
+/* 
+body.light {
+  background: #fff;
+  color: #161616;
+}
+body.light p {
+  color: #585858;
+}
+body.light .loader-wrap .loader-wrap-heading .load-text {
+  color: #fff;
+}
+body.light .sub-bg {
+  background: #eaeaea;
+}
+body.light .sub-bg2 {
+  background: #d2d1d1;
+}
+body.light .bg-light {
+  background: #1f1f1f !important;
+  color: #fff !important;
+}
+body.light .bg-light p {
+  color: #d2d1d1;
+}
+body.light .bg-light .butn-more .arrow-icon {
+  background: #ccc;
+}
+body.light .bg-light.main-colorbg {
+  background: #DDF160 !important;
+  color: #161616 !important;
+}
+body.light .bg-light.main-colorbg p {
+  color: #585858;
+}
+body.light .bg-light.main-colorbg2 {
+  background: #9F8BE7 !important;
+}
+body.light .butn-arrow.main-colorbg {
+  background: #9F8BE7 !important;
+}
+body.light .border-color-transparent-white-light {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+body.light .cls-1 {
+  fill: #696969 !important;
+}
+body.light .invert-icon {
+  filter: invert(0);
+}
+body.light .main-marq .box:last-of-type .item:nth-of-type(odd) h4 {
+  color: inherit;
+  -webkit-text-stroke: 1px inherit;
+}
+body.light .main-marq:after {
+  background: linear-gradient(to left, #ffffff, rgba(255, 255, 255, 0) 250px, rgba(255, 255, 255, 0) calc(100% - 250px), #ffffff);
+}
+body.light .user-imgs .fit-img:last-of-type {
+  background: #eaeaea;
+}
+body.light .butn-arrow {
+  background: #111012;
+  color: #fff;
+  border: 1px solid rgba(17, 16, 18, 0.3);
+}
+body.light .butn-arrow .arrow-icon {
+  background: #ededed;
+  color: #111012;
+}
+body.light .butn-arrow .arrow-icon svg {
+  stroke: #111012;
+}
+body.light .butn-arrow:hover {
+  color: #111012;
+}
+body.light .butn-arrow.main-colorbg {
+  border: 0;
+  color: #111012;
+  backdrop-filter: none;
+}
+body.light .butn-arrow.main-colorbg:hover {
+  background: #111012 !important;
+  color: #fff;
+}
+body.light .butn-more .arrow-icon {
+  background: #111012;
+}
+body.light .butn-more .arrow-icon svg {
+  stroke: #fff;
+}
+body.light .butn-bord-sm {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+body.light .butn-bord-sm:before {
+  background: #111012;
+}
+body.light .circle-button .textcircle {
+  fill: #111012;
+}
+body.light .social-icon-circle a {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+body.light .social-icon-circle a:hover {
+  background: #111012 !important;
+  color: #fff !important;
+}
+body.light .sec-head.bord,
+body.light .intro-style2 .item-numb.bord {
+  border-color: rgba(0, 0, 0, 0.2);
+  background: transparent !important;
+}
+body.light .sec-head h6::before,
+body.light .intro-style2 li:before,
+body.light .list-dot.dark-style li:before {
+  background: #111012;
+}
+body.light .hero-style1 .circle-button svg {
+  fill: #111012;
+}
+body.light .hero-style1:after {
+  background: linear-gradient(transparent, #fff);
+}
+body.light .hero-style1 .tags a,
+body.light .hero-style4 .tags a {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+body.light .hero-style1 .tags a:hover,
+body.light .hero-style4 .tags a:hover {
+  background: #111012;
+  color: #fff;
+}
+body.light .hero-style5 {
+  background: #161616;
+  color: #fff;
+}
+body.light .hero-style3 p {
+  color: #d2d1d1;
+}
+body.light .hero-style7 .exp {
+  box-shadow: 4px 4px 4px rgba(185, 185, 185, 0.5);
+}
+body.light .hr-sec .item-panel .butn-arrow {
+  background: #fff;
+  color: #111012;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+body.light .hr-sec .item-panel .butn-arrow .arrow-icon {
+  background: #111012;
+  color: #fff;
+}
+body.light .hr-sec .item-panel .butn-arrow .arrow-icon svg {
+  stroke: #fff;
+}
+body.light .hr-sec .item-panel .butn-arrow:hover {
+  color: #fff;
+}
+body.light .serv-style4 .item {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+body.light .interactive-sec .cluom,
+body.light .hero-style7 .img:after {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+body.light .interactive-sec .cluom:after {
+  border-color: rgba(0, 0, 0, 0.7);
+}
+body.light .serv-style2 .item.bg-light .cont .tags span {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+body.light .serv-style2 .item.main-colorbg .cont .tags span,
+body.light .serv-style2 .item.sub-bg .cont .tags span,
+body.light .intro-style3 .bord {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+body.light .serv-style4 .item:hover {
+  color: #111012 !important;
+}
+body.light .services-reval .item-row .w-50px {
+  filter: invert(1);
+}
+body.light .numbers .item {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+body.light .numbers .item:before, body.light .numbers .item:after,
+body.light .numbers .item span:before {
+  background: rgba(0, 0, 0, 0.1);
+}
+body.light .features .item,
+body.light .intro-style2 .item-numb,
+body.light .interactive-sec .glry-img .tab-img {
+  background: #eaeaea;
+}
+body.light .intro-style2 .main-color {
+  color: #9F8BE7 !important;
+}
+body.light .intro-style1 {
+  padding-top: 140px !important;
+}
+body.light .intro-style1 .box-bord {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+body.light .user-imgs.style1 .bg-light img {
+  filter: invert(1);
+}
+body.light .portfolio-style2 .portfolio-vertical:after {
+  background: linear-gradient(#eaeaea, transparent, #eaeaea);
+}
+body.light .portfolio-style2.overlay .item h6,
+body.light .portfolio-style2.overlay .item .tag,
+body.light .portfolio-style2 .item .fit-img .tag,
+body.light .portfolio-style3 .item .text,
+body.light .portfolio-style3 .item .tags {
+  color: #fff;
+}
+body.light .portfolio-elegant.showcase .item .cont span {
+  color: #585858;
+}
+body.light .testim-style1 .thumb-side .swiper-button-prev,
+body.light .testim-style1 .thumb-side .swiper-button-next {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+body.light .testim-style1 .thumb-side .swiper-button-prev:hover,
+body.light .testim-style1 .thumb-side .swiper-button-next:hover {
+  background: #111012;
+  color: #fff;
+}
+body.light .testim-style1.sub-bg {
+  background: linear-gradient(to bottom, transparent, #eaeaea);
+}
+body.light .testim-cards .stackCard, body.light .testim-cards .item {
+  background: #eaeaea;
+}
+body.light .testim-cards .stackCard.revs, body.light .testim-cards .item.revs {
+  background: #d2d1d1;
+}
+body.light .testim-style3 .item {
+  background: rgba(0, 0, 0, 0.1);
+}
+body.light .team-intro .item.bg-light {
+  background: #eaeaea !important;
+  color: #111012 !important;
+}
+body.light .team-reval .item-row {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+body.light .team-reval .item-row .social-icon a {
+  background: rgba(0, 0, 0, 0.05);
+  color: #111012;
+}
+body.light .team-style1 .item,
+body.light .faq-style1 .accordion-item,
+body.light .price-style1 .item {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+body.light .team-style1 .item .social-icon-circle a,
+body.light .faq-style1 .accordion-item .social-icon-circle a,
+body.light .price-style1 .item .social-icon-circle a {
+  color: #fff;
+  border-color: transparent;
+}
+body.light .brand-style1 .item {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+body.light .brand-style1 .item img {
+  filter: invert(1);
+}
+body.light .brand-style1 .item:hover {
+  background: #111012;
+}
+body.light .brand-style1 .item:hover img {
+  filter: invert(0);
+}
+body.light .marq-brand .item a {
+  background: #eaeaea;
+}
+body.light .marq-brand .item a img {
+  filter: invert(1);
+}
+body.light .awards-reval .item-row {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+body.light .contact-style1 {
+  color: inherit;
+}
+body.light .contact-style1 .contact-form input, body.light .contact-style1 .contact-form textarea {
+  color: inherit;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+body.light .contact-style1 .contact-form input:focus, body.light .contact-style1 .contact-form textarea:focus {
+  border-color: #111012;
+}
+body.light .contact .form2 input, body.light .contact .form2 textarea {
+  border-color: rgba(0, 0, 0, 0.2);
+  color: inherit;
+}
+body.light .blog-style1 .item .text,
+body.light .sidebar .widget,
+body.light .main-post .post-qoute {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+body.light .sidebar .search-box input {
+  border-color: rgba(0, 0, 0, 0.5);
+  color: #111012;
+}
+body.light .sidebar .widget.catogry li:hover,
+body.light .sidebar .widget.last-post-thum .item .cont .tag,
+body.light .sidebar .widget.tags a,
+body.light .main-post .info-area .tags a,
+body.light .main-post .info-area .share-icon a,
+body.light .main-post .author-area {
+  background: rgba(0, 0, 0, 0.05);
+}
+body.light .sidebar .widget.last-post-thum .item .img a .date {
+  color: #fff;
+}
+body.light .footer-style1 .fo-box-left,
+body.light .footer-style1 .fo-box-right {
+  background: #eaeaea;
+}
+body.light .footer-style1 .fo-box-left .tags a {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+body.light .footer-style1 .fo-box-left .tags a:hover {
+  border-color: #111012;
+}
+body.light footer .subscribe input {
+  background: rgba(0, 0, 0, 0.05);
+  color: #111012;
+}
+body.light .footer-style1 .fo-box-right .subscribe img {
+  filter: invert(1);
+}
+body.light footer .subscribe p a {
+  color: #111012;
+}
+body.light footer .main-color {
+  color: #9F8BE7 !important;
+} */
 
 /* ====================== [ End Colors Skin  ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
